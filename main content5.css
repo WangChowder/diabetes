@@ -1,0 +1,45 @@
+*{
+    font-family: 'Lilita One', sans-serif;
+}
+
+.container1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-item  h5{
+    font-size: 25px;
+    color: #4b6675;
+}
+.nav-item  h5:hover{
+    transform: scale(1.2);
+    color:black;
+    border-radius: 20px;
+}
+
+.footer{
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.col-12 a img{    
+    margin: 25px;
+}
+
+.footer img{
+    width:50px;
+    height: 50px;
+    margin:20px auto auto auto;
+    border-radius: 25px;
+}
+
+.footer img:hover{
+    transform: scale(1.2);
+}
+
+.footerpic{
+    background-image:url(pic/footerpic.jpg);
+    background-repeat:no-repeat ;
+    background-size:cover;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="question.css" rel="stylesheet" type="text/css" />
+  <link href="bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+</head>
+
+<body>
+  <script>
+    alert("您好開始作答");
+    let q1 = prompt(
+        "什麼是糖尿病的主要特徵？ \n 1. 發燒 \n 2.血糖水平異常 \n 3. 高血壓 \n 4. 失眠"
+    );
+    if (q1 == 2) {
+        alert("恭喜答對!");
+    } else {
+        alert("錯，答案是『血糖水平異常』");
+    }
+    
+    let q2 = prompt(
+        "糖尿病的主要分類包括哪兩種類型？ \n 1. 優劣型和等級型 \n 2. 甲型和乙型 \n 3.1型和2型  \n 4. 高型和低型"
+    );
+    if (q2 == 3) {
+        alert("恭喜答對");
+    } else {
+        alert("錯，答案是『1型和2型』");
+    }
+    let q3 = prompt(
+        "糖尿病患者應該盡量避免攝取過多的哪一種食物？  \n 1. 蔬菜 \n 2. 水果 \n 3. 蛋白質 \n 4. 碳水化合物 "
+    );
+    if (q3 == 2) {
+        alert("恭喜答對");
+    } else {
+        alert("錯，答案是『水果』");
+    }
+    let q4 = prompt(
+        " 以下哪一項活動對於糖尿病患者有益？ \n 1.天天坐在沙發上  \n 2. 規則的有氧運動 \n 3. 長時間的站立 \n 4.忽略任何體育活動 "
+    );
+    if (q4 == 2) {
+        alert("恭喜你答對");
+    } else {
+        alert("錯，答案是『規則的有氧運動』 ");
+    }
+    let q5 = prompt(
+        "什麼是「糖化血紅素」（HbA1c）測試的用途？ \n 1. 測量當下血糖水平 \n 2. 衡量飲食攝入 \n 3. 測試胰島素水平 \n 4. 評估過去幾個月的平均血糖水平"
+    );
+    if (q5 == 4) {
+        alert("恭喜你答對")
+    } else {
+        alert("錯，答案是『評估過去幾個月的平均血糖水平』 ");
+
+    }
+    alert("測驗結束");
+</script>
+  </body>
+
+</html>

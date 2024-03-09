@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>糖尿病大小事</title>
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link href="bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <script src="bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+
+<body>
+  <video autoplay muted loop id="myVideo">
+    <source src="pic/medical.mp4" type="video/mp4">
+  </video>
+  <div class="content">
+    <h1>「糖分減少，活力增多，愛自己，預防糖尿病風暴。」</h1>
+  </div>
+  <br>
+  <br>
+  <img src="pic/header.png" style="width: 100%">
+  <div class="container sticky-top" style="background-color: white;">
+    <div class="container1 ">
+      <img src="pic/logo.png" width="150px" height="150px">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <h5>首頁</h5>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="main content.html">
+            <h5>糖尿病是什麼</h5>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="main content2.html">
+            <h5>糖尿病治療方法</h5>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="main content3.html">
+            <h5>糖尿病併發症</h5>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="main content4.html">
+            <h5>商品專區</h5>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="main content5.html">
+            <h5>會員登入</h5>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div style="display: flex; justify-content: end;">
+      <form class="d-flex  w-25" role="search">
+        <input class="form-control me-2" type="search" placeholder="糖尿病相關資料" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+    <br>
+  </div>
+  <br>
+  <div style="width: auto;height: 15px;background-color:#9DB2BF; position: sticky;">
+  </div>
+  <br>
+  <br>
+  <div class="bg-section2">
+    <div class="container">
+      <div style="text-shadow:2px 2px 2px black; color:white" data-aos="fade-right" data-aos-duration="2000">
+        <h1>你害怕糖尿病嗎？</h1>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="pic/carousel-1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="pic/carousel2-1.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="pic/carousel3-1.png" class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="bg-section">
+      <div class="container">
+        <div class="page-header" style="flex-direction: column; display: flex; text-align: center;">
+          <h1 style="text-shadow:2px 2px 2px black; color:white">111年<spean style="color:white" data-aos="fade-left"
+              data-aos-duration="2000">台灣十大死因</spean>
+          </h1>
+          <br>
+          <br>
+          <P>資料來源：衛生福利部統計處</P>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-10">
+          <canvas id="chartCanvas"></canvas>
+        </div>
+        <div class="col-sm-1"></div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="mainContent">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6  col-sm-12">
+            <P><span style="color: red; font-size: 35px;">台灣</span>
+              是亞洲地區糖尿病盛行率最高的國家，平均約每十人中就有超過一人可能有糖尿病問題，而原因其實與居高不下的肥胖人口比例脫不了關係。根據國健署統計，18歲以上台灣人，約半數有過胖問題，這也連帶造成糖尿病患者數量不斷增加、且有年輕化的趨勢。
+              糖尿病也一直是台灣十大死亡原因之一根據衛福部統計111年國人十大死亡原因中糖尿病位居第六名。</P>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <img class="img-fluid" src="pic/handopen.png" alt="張開雙手">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class=footerpic>
+  <div class="container-fluid">
+      <div class="row">
+        <div class="footer">
+          <div class="col-12">
+            <a href="http://www.facebook.com/" target="_blank"> <img src="pic/footer1.png" alt="facebook"></a>
+            <a href="http://www.youtube.com/" target="_blank"><img src="pic/footer2.png" alt="youtube"></a>
+            <a href="http://www.instagram.com/" target="_blank"><img src="pic/footer3.png" alt="instagram"></a>
+            <a href="https://tw.linebiz.com/login/" target="_blank"><img src="pic/footer4.png" alt="line"></a>
+            <a href="http://www.gmail.com/" target="_blank"><img src="pic/footer5.png" alt="email"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="table-responsive">
+        <table class="table d-flex justify-content-around text-decoration: none;">
+          <thead>
+            <tr>
+              <td><a href="#" target="_blank">關於我們</a></td>
+              <td><a href="#" target="_blank">服務條款</a></td>
+              <td><a href="#" target="_blank">訊息公告</a></td>
+              <td><a href="#" target="_blank">問與答</a></td>
+              <td><a href="#" target="_blank">退貨政策</a></td>
+            </tr>
+          </thead>
+          <table class="table d-flex justify-content-around">
+            <thead>
+              <tr>
+                <th>聯絡地址：</th>
+                <td>408台中市南屯區公益路二段51號18樓</td>
+              </tr>
+              <tr>
+                <th>聯絡電話：</th>
+                <td>04-2326-5860</td>
+              </tr>
+          </table>
+          </thead>
+        </table>
+      </div>
+    </div>
+  </div>
+    <script>
+      $(document).ready(function () {
+        var diseaseList = [24.9, 11.4, 7.0, 6.9, 6, 5.9, 4.2, 3.3, 3.1, 2.8];
+        var disease2List = [51927, 23668, 14667, 14320, 12416, 12289, 8720, 6953, 6494, 5813];
+
+        var disease = ["惡性腫瘤", "心臟疾病", "Covid-19", "肺炎", "腦血管疾病", "糖尿病", "高血壓性疾病", "事故傷害", "慢性下呼吸道疾病", "腎炎腎病症候群及腎病變"];
+
+        var ctx = document.getElementById("chartCanvas");
+        var populationChart = new Chart(ctx, {
+          type: "bar",
+          data: {
+            labels: disease,
+            datasets: [
+              {
+                label: "%",
+                data: diseaseList,
+                backgroundColor: "rgba(	32, 178, 170)",
+                borderColor: "(0, 139, 139)",
+                borderWidth: 1
+              },
+              {
+                label: "人數",
+                data: disease2List,
+                backgroundColor: "rgba(119, 136, 153)",
+                borderColor: "rgba(	119, 136, 153)",
+                borderWidth: 1
+              }
+            ]
+          }
+        })
+      })
+    </script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+
+</html>

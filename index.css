@@ -1,0 +1,118 @@
+*{
+    font-family: 'Lilita One', sans-serif;
+}
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 100%;
+  }
+  
+  .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+
+.container1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-item  h5{
+    font-size: 25px;
+    color: #4b6675;
+}
+.nav-item  h5:hover{
+    transform: scale(1.2);
+    color:black;
+    border-radius: 20px;
+}
+.mainContent{
+    text-align: center;
+}
+
+.mainContent p{
+    font-size: 28px;
+    line-height: 100px;
+    margin-top: 30xp;
+}
+
+.footer{
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+.col-12 a img{    
+    margin: 25px;
+}
+
+.footer img{
+    width:50px;
+    height: 50px;
+    margin:20px auto auto auto;
+    border-radius: 25px;
+}
+
+.footer img:hover{
+    transform: scale(1.2);
+}
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #c2d1e0;
+    color:black;
+    padding: 10px;
+    border: none;
+    border-radius: 50%; /* 設置圓形的半徑為50% */
+    width: 50px; /* 設置按鈕寬度 */
+    height: 50px; /* 設置按鈕高度 */
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  #backToTopBtn:hover {
+    background-color: #a6c4e3;
+  }
+
+
+  .bg-section {
+    position: relative;
+
+    &::before {
+        content: '';
+        width: 50vw;
+        height: 10vh;
+        right: 0px;
+        background-color: #2f5a75;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+.bg-section2 {
+    position: relative;
+
+    &::before {
+        content: '';
+        width: 40vw;
+        height: 8vh;
+        background-color: #2f5a75;
+        position: absolute;
+        z-index: -1;
+    }
+}
+.footerpic{
+    background-image:url(pic/footerpic.jpg);
+    background-repeat:no-repeat ;
+    background-size:cover;
+}
