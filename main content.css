@@ -365,3 +365,18 @@ button:hover {
 #result{
     font-size: 25px;
 }
+
+.footercolor{
+    background-color: #bec2c3;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}

@@ -43,12 +43,6 @@
     margin-top: 30xp;
 }
 
-.footer{
-    width: auto;
-    text-align: center;
-    flex-wrap: wrap;
-
-}
 .col-12 a img{    
     margin: 25px;
 }
@@ -63,27 +57,6 @@
 .footer img:hover{
     transform: scale(1.2);
 }
-
-#backToTopBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #c2d1e0;
-    color:black;
-    padding: 10px;
-    border: none;
-    border-radius: 50%; /* 設置圓形的半徑為50% */
-    width: 50px; /* 設置按鈕寬度 */
-    height: 50px; /* 設置按鈕高度 */
-    cursor: pointer;
-    font-size: 20px;
-  }
-  
-  #backToTopBtn:hover {
-    background-color: #a6c4e3;
-  }
-
 
   .bg-section {
     position: relative;
@@ -111,8 +84,29 @@
         z-index: -1;
     }
 }
-.footerpic{
-    background-image:url(pic/footerpic.jpg);
-    background-repeat:no-repeat ;
-    background-size:cover;
+.footercolor{
+    background-color: #bec2c3;
 }
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+    .content {
+        display: none;
+    }
+  }
+
+  @media screen and (max-width: 1400px) {
+    #myVideo {
+        display: none;
+    }
+  }

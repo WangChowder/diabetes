@@ -384,8 +384,17 @@
     }
   }
 
-  .footerpic{
-    background-image:url(pic/footerpic.jpg);
-    background-repeat:no-repeat ;
-    background-size:cover;
+.footercolor{
+    background-color: #bec2c3;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }

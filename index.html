@@ -7,8 +7,8 @@
   <title>糖尿病大小事</title>
   <link href="index.css" rel="stylesheet" type="text/css" />
   <link href="bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
   <script src="bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -16,18 +16,24 @@
 </head>
 
 <body>
-  <video autoplay muted loop id="myVideo">
+  <video autoplay loop id="myVideo">
     <source src="pic/medical.mp4" type="video/mp4">
   </video>
   <div class="content">
     <h1>「糖分減少，活力增多，愛自己，預防糖尿病風暴。」</h1>
   </div>
-  <br>
-  <br>
   <img src="pic/header.png" style="width: 100%">
-  <div class="container sticky-top" style="background-color: white;">
-    <div class="container1 ">
-      <img src="pic/logo.png" width="150px" height="150px">
+  <br />
+  <br />
+  <div class="d-flex justify-content-end">
+    <form class="d-flex w-30" role="search">
+      <input class="form-control me-2" type="search" placeholder="糖尿病相關資料" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+  <div class="sticky-top" style="background-color: white;">
+    <div class="container1">
+      <img src="pic/logo.png" style="width:100px">
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link" href="index.html">
@@ -61,12 +67,6 @@
         </li>
       </ul>
     </div>
-    <div style="display: flex; justify-content: end;">
-      <form class="d-flex  w-25" role="search">
-        <input class="form-control me-2" type="search" placeholder="糖尿病相關資料" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
     <br>
   </div>
   <br>
@@ -81,9 +81,6 @@
       </div>
     </div>
   </div>
-  <br>
-  <br>
-  <br>
   <br>
   <div class="container">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -118,8 +115,6 @@
       </button>
     </div>
     <br>
-    <br>
-    <br>
     <div class="bg-section">
       <div class="container">
         <div class="page-header" style="flex-direction: column; display: flex; text-align: center;">
@@ -142,9 +137,6 @@
       </div>
     </div>
     <br>
-    <br>
-    <br>
-    <br>
     <div class="mainContent">
       <div class="container">
         <div class="row">
@@ -162,13 +154,32 @@
   </div>
   <br>
   <br>
-  <br>
-  <br>
-  <div class=footerpic>
-  <div class="container-fluid">
+  <div class="footercolor">
+    <br>
+    <div class="container">
       <div class="row">
-        <div class="footer">
-          <div class="col-12">
+        <div class="col-6">
+          <div>
+            <h4>聯絡地址:</h4>
+            <h5>408台中市南屯區公益路二段51號18樓</h5>
+            <h4>聯絡電話:</h4>
+            <h5>04-2326-5860</h5>
+          </div>
+        </div>
+        <div class="col-6 d-flex text-align justify-content-center align-items-center">
+          <h6><a href="#" target="_blank" class="about ms-2">關於我們|</a></h6>
+          <h6><a href="#" target="_blank" class="about ms-2">服務條款|</a></h6>
+          <h6><a href="#" target="_blank" class="about ms-2">訊息公告|</a></h6>
+          <h6><a href="#" target="_blank" class="about ms-2">問與答|</a></h6>
+          <h6><a href="#" target="_blank" class="about ms-2">退貨政策</a></h6>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-8">
+          <div class="footer">
             <a href="http://www.facebook.com/" target="_blank"> <img src="pic/footer1.png" alt="facebook"></a>
             <a href="http://www.youtube.com/" target="_blank"><img src="pic/footer2.png" alt="youtube"></a>
             <a href="http://www.instagram.com/" target="_blank"><img src="pic/footer3.png" alt="instagram"></a>
@@ -176,71 +187,16 @@
             <a href="http://www.gmail.com/" target="_blank"><img src="pic/footer5.png" alt="email"></a>
           </div>
         </div>
+        <div class="col"></div>
       </div>
     </div>
-    <div class="container">
-      <div class="table-responsive">
-        <table class="table d-flex justify-content-around text-decoration: none;">
-          <thead>
-            <tr>
-              <td><a href="#" target="_blank">關於我們</a></td>
-              <td><a href="#" target="_blank">服務條款</a></td>
-              <td><a href="#" target="_blank">訊息公告</a></td>
-              <td><a href="#" target="_blank">問與答</a></td>
-              <td><a href="#" target="_blank">退貨政策</a></td>
-            </tr>
-          </thead>
-          <table class="table d-flex justify-content-around">
-            <thead>
-              <tr>
-                <th>聯絡地址：</th>
-                <td>408台中市南屯區公益路二段51號18樓</td>
-              </tr>
-              <tr>
-                <th>聯絡電話：</th>
-                <td>04-2326-5860</td>
-              </tr>
-          </table>
-          </thead>
-        </table>
-      </div>
-    </div>
+    <br />
   </div>
-    <script>
-      $(document).ready(function () {
-        var diseaseList = [24.9, 11.4, 7.0, 6.9, 6, 5.9, 4.2, 3.3, 3.1, 2.8];
-        var disease2List = [51927, 23668, 14667, 14320, 12416, 12289, 8720, 6953, 6494, 5813];
 
-        var disease = ["惡性腫瘤", "心臟疾病", "Covid-19", "肺炎", "腦血管疾病", "糖尿病", "高血壓性疾病", "事故傷害", "慢性下呼吸道疾病", "腎炎腎病症候群及腎病變"];
-
-        var ctx = document.getElementById("chartCanvas");
-        var populationChart = new Chart(ctx, {
-          type: "bar",
-          data: {
-            labels: disease,
-            datasets: [
-              {
-                label: "%",
-                data: diseaseList,
-                backgroundColor: "rgba(	32, 178, 170)",
-                borderColor: "(0, 139, 139)",
-                borderWidth: 1
-              },
-              {
-                label: "人數",
-                data: disease2List,
-                backgroundColor: "rgba(119, 136, 153)",
-                borderColor: "rgba(	119, 136, 153)",
-                borderWidth: 1
-              }
-            ]
-          }
-        })
-      })
-    </script>
-    <script>
-      AOS.init();
-    </script>
+  <script src="index.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
