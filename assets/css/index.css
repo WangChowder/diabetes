@@ -37,8 +37,8 @@
 }
 
 .mainContent p{
-    font-size: 28px;
-    line-height: 100px;
+    font-size: 25px;
+    line-height: 80px;
     margin-top: 30xp;
 }
 
@@ -112,14 +112,31 @@
     border-radius:10px;
 }
 
+
+@media screen and (max-width: 768px) {
+    .mainContent p{
+        font-size: 16px;
+        line-height: 30px;
+    }
+  }
+
+@media screen and (max-width: 991px) {
+    .mainContent p{
+        font-size: 20px;
+        line-height: 60px;
+    }
+  }
+
 @media screen and (max-width: 1400px) {
     .content {
         display: none;
     }
   }
 
-  @media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
     #myVideo {
         display: none;
     }
   }
+
+  
