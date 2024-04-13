@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>糖尿病治療方法</title>
-  <link href="assets/css/main content2.css" rel="stylesheet" type="text/css"/>
-  <link href="assets/css/app.css" rel="stylesheet" type="text/css"/>
+  <link href="assets/css/main content2.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/app.css" rel="stylesheet" type="text/css" />
   <link href="bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="bootstrap-5.3.2-dist/js/bootstrap.js"></script>
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -16,18 +17,16 @@
 
 <body>
   <img src="assets/images/header.png" style="width: 100%">
-  <br />
-  <br />
   <div class="d-flex justify-content-between me-3">
     <div>
       <img src="assets/images/logo.png">
     </div>
-    
-      <form class="d-flex align-items-center" role="search">
-        <input class="form-control" type="search" placeholder="糖尿病相關資料" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    
+
+    <form class="d-flex align-items-center" role="search">
+      <input class="form-control" type="search" placeholder="糖尿病相關資料" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
   </div>
   <nav class="navbar navbar-expand-lg container1">
     <div class="container-fluid">
@@ -71,8 +70,7 @@
       </div>
     </div>
   </nav>
-  <br>
-  <br>
+
   <div class="bg-section">
     <div class="container">
       <div class="row">
@@ -105,149 +103,137 @@
   </div>
   <br>
   <br>
-  <div class="container">
-    <div class="row">
-      <div class="bg-section3" data-aos="fade-left" data-aos-duration="2000">
-        <div class="drug">
-          <h2>常見糖尿病藥物：</h2>
-        </div>
-      </div>
-      <br>
-      <br>
-      <br>
-      <br>
-      <br>
-      <div class="bg-section1">
-        <div class="bigdrug">
-          <div class="col-sm-4 d-flex justify-content-center">
-            <div class="bigdrug1">
-              <h2 id="smalldrug1">雙胍類(Biguanides):</h2>
-              <p id="smalldrug2">降低肝臟製造葡萄糖的量、減少腸道吸收葡萄糖、增加人體對糖分的利用，來達到降血糖的作用。</p>
-            </div>
-          </div>
-          <div class="col-sm-4 d-flex justify-content-center">
-            <div class="bigdrug2">
-              <h2 id="smalldrug3">Thiazolidinediones類藥物:</h2>
-              <p id="smalldrug4">增加胰島素敏感度，降低空腹血糖及血中胰島素濃度。</p>
-            </div>
-          </div>
-          <div class="col-sm-4 d-flex justify-content-center">
-            <div class="bigdrug3">
-              <h2 id="smalldrug5">GLP-1:</h2>
-              <p id="smalldrug6">在進食後刺激胰島素分泌及抑制升糖激素的分泌。</p>
-            </div>
-          </div>
-        </div>
-        <div class="bigdrug">
-          <div class="col-sm-2"></div>
-          <div class="col-sm-4 d-flex justify-content-center">
-            <div class="bigdrug4">
-              <h2 id="smalldrug7">腸泌素抑制劑:</h2>
-              <p id="smalldrug8">使胰島素分泌增加、升糖素分泌減少，進而增加胰島素作用、改善血糖。</p>
-            </div>
-          </div>
-          <div class="col-sm-4 d-flex justify-content-center">
-            <div class="bigdrug5">
-              <h2 id="smalldrug9">SGLT2 抑制劑：</h2>
-              <p id="smalldrug10">腎臟抑制尿糖再吸收，增加腎臟排出葡萄糖，有利尿的效果，且有減重好處。</p>
-            </div>
-          </div>
-          <div class="col-sm-2"></div>
+  <div class="bg-section3" data-aos="fade-left" data-aos-duration="2000">
+    <div class="container">
+      <div class="row">
+        <div class=" col-12 drug">
+          <p>常見糖尿病藥物：</p>
         </div>
       </div>
     </div>
   </div>
+  <div class="bg-section1">
+    <div class="bigdrug">
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="bigdrug1">
+          <p id="smalldrug1">雙胍類(Biguanides):</p>
+          <p id="smalldrug2">降低肝臟製造葡萄糖的量、減少腸道吸收葡萄糖、增加人體對糖分的利用，來達到降血糖的作用。</p>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="bigdrug1">
+          <p id="smalldrug1">Thiazolidinediones類藥物:</p>
+          <p id="smalldrug2">增加胰島素敏感度，降低空腹血糖及血中胰島素濃度。</p>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="bigdrug1">
+          <p id="smalldrug1">GLP-1:</p>
+          <p id="smalldrug2">在進食後刺激胰島素分泌及抑制升糖激素的分泌。</p>
+        </div>
+      </div>
+    </div>
+    <div class="bigdrug">
+      <div class="col-sm-2"></div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="bigdrug1">
+          <p id="smalldrug1">腸泌素抑制劑:</p>
+          <p id="smalldrug2">使胰島素分泌增加、升糖素分泌減少，進而增加胰島素作用、改善血糖。</p>
+        </div>
+      </div>
+      <div class="col-sm-4 d-flex justify-content-center">
+        <div class="bigdrug1">
+          <p id="smalldrug1">SGLT2 抑制劑：</p>
+          <p id="smalldrug2">腎臟抑制尿糖再吸收，增加腎臟排出葡萄糖，有利尿的效果，且有減重好處。</p>
+        </div>
+      </div>
+      <div class="col-sm-2"></div>
+    </div>
   </div>
-  </div>
-  <br>
-  <br>
-  <br>
-  <br>
+
   <div class="bg-section2">
     <div class="container">
       <div class="row">
         <div class="col-12 col-sm-12 col-md-12">
-          <h2 class="insulin1">藥物胰島素的種類:</h2>
-          <div class="insulin2">胰島素在治療上依作用時間長短不同，分為以下不同種類：</div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="row d-flex justify-content-center">
-        <div class="insulinmain">
-          <div class="col-12">
-            <div class="short">
-              <div id="short1" data-aos="flip-left" data-aos-duration="2000"><span
-                  style="font-size: 25px;">短效型胰島素（Short-acting Insulin）:</span><br><br>★
-                約注射後30分鐘後會開始發揮作用，藥效高峰期維持2~3小時並持續作用3~6小時。<br>★ 通常會搭配長效型胰島素於餐前注射。<br>★ 種類：Regular insulin。</div>
-              <div id="short2" data-aos="flip-left" data-aos-duration="3000"><span
-                  style="font-size: 25px;">速效型胰島素（Rapid-acting
-                  Insulin）</span><br><br>★約注射後15分鐘後會開始發揮作用，藥效高峰期維持1小時並持續作用2~4小時。<br>★通常會搭配長效型胰島素於餐前注射。<br>★種類：Insulin
-                Glulisine、Insulin Lispro、Insulin Aspart。</div>
-            </div>
-            <div class="bg-section4">
-              <div class="longa">
-                <div id="long1" data-aos="flip-left" data-aos-duration="2000"><span
-                    style="font-size: 25px;">長效型胰島素（Long-acting
-                    Insulin）:</span><br><br>★約注射後數小時後會開始發揮作用，可維持約24小時。<br>★依病人情況若有需要，通常會搭配速效或短效型胰島素。<br>★種類：Insulin
-                  Glargine、Insulin Detemir。</div>
-                <div id="long2" data-aos="flip-left" data-aos-duration="3000"><span
-                    style="font-size: 25px;">中效型胰島素（Intermediate-acting
-                    Insulin）:</span><br><br>★約注射後30分鐘後會開始發揮作用，藥效高峰期維持2~3小時並持續作用3~6小時。<br>★通常會搭配長效型胰島素於餐前注射。<br>★種類：Regular
-                  insulin。</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="row d-flex justify-content-center">
-        <div class="col-md-6 col-sm-6 col-md-6">
-          <img src="assets/images/insulin11.png" alt="胰島素作用圖" style="width:100%;">
+          <h1>藥物胰島素的種類:</h1>
+          <p class="insulin2">胰島素在治療上依作用時間長短不同，分為以下不同種類：</p>
         </div>
       </div>
     </div>
-    <br>
-    <div class="footercolor">
-      <br>
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-5 col-lg-4 col-md-3">
-            <div>
-              <h4>聯絡地址:</h4>
-              <h5>408台中市南屯區公益路二段51號18樓</h5>
-              <h4>聯絡電話:</h4>
-              <h5>04-2326-5860</h5>
-            </div>
-          </div>
-          <div class="col-xl-7 col-lg-8 col-md-9">
-            <div class=" d-flex text-align justify-content-center align-items-center">
-              <h6><a href="#" target="_blank" class="about ms-2">關於我們|</a></h6>
-              <h6><a href="#" target="_blank" class="about ms-2">服務條款|</a></h6>
-              <h6><a href="#" target="_blank" class="about ms-2">訊息公告|</a></h6>
-              <h6><a href="#" target="_blank" class="about ms-2">問與答|</a></h6>
-              <h6><a href="#" target="_blank" class="about ms-2">退貨政策</a></h6>
-            </div>
-            <br />
-            <br />
-            <div class="footer">
-              <a href="http://www.facebook.com/" target="_blank"> <img src="assets/images/footer1.png" alt="facebook"></a>
-              <a href="http://www.youtube.com/" target="_blank"><img src="assets/images/footer2.png" alt="youtube"></a>
-              <a href="http://www.instagram.com/" target="_blank"><img src="assets/images/footer3.png" alt="instagram"></a>
-              <a href="https://tw.linebiz.com/login/" target="_blank"><img src="assets/images/footer4.png" alt="line"></a>
-              <a href="http://www.gmail.com/" target="_blank"><img src="assets/images/footer5.png" alt="email"></a>
-            </div>
+  </div>
+  <div class="row d-flex justify-content-center">
+    <div class="insulinmain">
+      <div class="col-12">
+        <div class="short">
+          <div class="short1" data-aos="flip-left" data-aos-duration="2000"><span
+              style="font-size: 25px;">短效型胰島素（Short-acting Insulin）:</span><br><br>★
+            約注射後30分鐘後會開始發揮作用，藥效高峰期維持2~3小時並持續作用3~6小時。<br>★ 通常會搭配長效型胰島素於餐前注射。<br>★ 種類：Regular insulin。</div>
+          <div class="short2" data-aos="flip-left" data-aos-duration="3000"><span
+              style="font-size: 25px;">速效型胰島素（Rapid-acting
+              Insulin）</span><br><br>★約注射後15分鐘後會開始發揮作用，藥效高峰期維持1小時並持續作用2~4小時。<br>★通常會搭配長效型胰島素於餐前注射。<br>★種類：Insulin
+            Glulisine、Insulin Lispro、Insulin Aspart。</div>
+        </div>
+        <div class="bg-section4">
+          <div class="longa">
+            <div class="short2" data-aos="flip-left" data-aos-duration="2000"><span
+                style="font-size: 25px;">長效型胰島素（Long-acting
+                Insulin）:</span><br><br>★約注射後數小時後會開始發揮作用，可維持約24小時。<br>★依病人情況若有需要，通常會搭配速效或短效型胰島素。<br>★種類：Insulin
+              Glargine、Insulin Detemir。</div>
+            <div class="short1" data-aos="flip-left" data-aos-duration="3000"><span
+                style="font-size: 25px;">中效型胰島素（Intermediate-acting
+                Insulin）:</span><br><br>★約注射後30分鐘後會開始發揮作用，藥效高峰期維持2~3小時並持續作用3~6小時。<br>★通常會搭配長效型胰島素於餐前注射。<br>★種類：Regular
+              insulin。</div>
           </div>
         </div>
-        <br />
       </div>
     </div>
-    <button id="backToTopBtn" onclick="scrollToTop()">⇪</button>
-    <script src="assets/js/index.js"></script>
-    <script>
-      AOS.init();
-    </script>
+  </div>
+
+  <div class="row d-flex justify-content-center">
+    <div class="col-md-6 col-sm-6 col-md-6">
+      <img src="assets/images/insulin11.png" alt="胰島素作用圖" style="width:100%;">
+    </div>
+  </div>
+
+  <div class="footercolor">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-5 col-lg-4 col-md-3">
+          <div class="footerfont1">
+            <p>聯絡地址:</p>
+            <p>408台中市南屯區公益路二段51號18樓</p>
+            <p>聯絡電話:</p>
+            <p>04-2326-5860</p>
+          </div>
+        </div>
+        <div class="col-xl-7 col-lg-8 col-md-9 bigfooter">
+
+          <div class="footerabout">
+            <a href="#" target="_blank" class="about">關於我們|</a>
+            <a href="#" target="_blank" class="about">服務條款|</a>
+            <a href="#" target="_blank" class="about">訊息公告|</a>
+            <a href="#" target="_blank" class="about">問與答|</a>
+            <a href="#" target="_blank" class="about">退貨政策</a>
+          </div>
+
+          <div class="footer">
+            <a href="http://www.facebook.com/" target="_blank"> <img src="assets/images/footer1.png" alt="facebook"></a>
+            <a href="http://www.youtube.com/" target="_blank"><img src="assets/images/footer2.png" alt="youtube"></a>
+            <a href="http://www.instagram.com/" target="_blank"><img src="assets/images/footer3.png"
+                alt="instagram"></a>
+            <a href="https://tw.linebiz.com/login/" target="_blank"><img src="assets/images/footer4.png" alt="line"></a>
+            <a href="http://www.gmail.com/" target="_blank"><img src="assets/images/footer5.png" alt="email"></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="backToTopBtn" onclick="scrollToTop()">⇪</button>
+  <script src="assets/js/index.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

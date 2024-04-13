@@ -28,11 +28,8 @@
     padding: 10px;
     border: none;
     border-radius: 50%;
-    /* 設置圓形的半徑為50% */
-    width: 60px;
-    /* 設置按鈕寬度 */
-    height: 60px;
-    /* 設置按鈕高度 */
+    width: 65px;
+    height: 65px;
     cursor: pointer;
     font-size: 30px;
 }
@@ -43,13 +40,22 @@
 
 .footercolor {
     background-color: #c8dce7;
+    margin-top: 100px;
 }
 
 .about {
     text-decoration: none;
     color: black;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 26px;
+    padding-right: 10px;
+}
+
+.bigfooter{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .footer {
@@ -58,6 +64,55 @@
 }
 
 .footer img {
+    margin-top: 10px;
     width: 40px;
     border-radius: 10px;
+}
+
+.footerfont1{
+    font-size: 26px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footerabout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 991px) {
+    .footerfont1 {
+        font-size: 20px;
+    }
+    .about {
+        font-size: 20px;
+    }
+    .footer img{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    #backToTopBtn {
+        bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 505px) {
+    .footerfont1 {
+        font-size: 16px;
+    }
+    .about {
+        font-size: 16px;
+    }
+    .footer img{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    .about {
+        font-size: 14px;
+    }
 }

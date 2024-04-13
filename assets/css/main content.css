@@ -79,8 +79,9 @@
 }
 
 .A1 {
-    font-size: 35px;
+    font-size: 34px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .picture {
@@ -89,13 +90,12 @@
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 40px;
+    padding: 20px;
 }
 
 .picture img {
     width: 180px;
     height: 180px;
-
 }
 
 .main1 {
@@ -118,7 +118,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 90px; 
+    margin-top: 60px; 
     text-shadow: 2px 2px 4px white;
 }
 
@@ -189,27 +189,17 @@
 
 .sugar img {
     width: 80%;
-
 }
 
 .col-12 a img {
     margin: 25px;
 }
 
-.footer img {
-    width: 50px;
-    height: 50px;
-    margin: 20px auto auto auto;
-    border-radius: 25px;
-}
-
-.footer img:hover {
-    transform: scale(1.2);
-}
-
 .bg-section {
     position: relative;
-
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
     &::before {
         content: '';
         width: 100vw;
@@ -225,7 +215,8 @@
 
 .bg-section2 {
     position: relative;
-
+    margin-top: 100px;
+    margin-bottom: 100px;
     &::before {
         content: '';
         width: 100vw;
@@ -259,8 +250,11 @@
     opacity: 0.9;
     border-radius: 25px;
 }
+
 .testtube{
     position: relative;
+    margin-top: 150px;
+    margin-bottom: 100px;
 
     &::before {
         content: '';
@@ -305,11 +299,24 @@ button:hover {
     font-size: 25px;
 }
 
+@media screen and (max-width: 1400px) {
+    .main1 {
+        font-size: 38px;
+    }
+  }
+
+
 @media screen and (max-width: 1350px) {
     .testtube::before {
         background-color:unset;
     }
     .testtube img{
         display:none;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .main1 {
+        font-size: 30px;
     }
   }

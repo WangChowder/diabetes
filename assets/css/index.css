@@ -8,6 +8,7 @@
 
 .content {
     position: absolute;
+    bottom: 0px;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
@@ -84,14 +85,16 @@
 .handopen{
     width: 100%;
 }
+.footercontainer{
+    margin-bottom: 30px;
+}
 
 .footerfont{
     font-size: 35px;
     line-height: 80px;
 }
 
-
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
     .content {
         display: none;
     }

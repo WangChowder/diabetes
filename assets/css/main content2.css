@@ -69,11 +69,13 @@
     height: 100%;
 }
 
-.drug h2 {
+.drug {
     font-size: 40px;
     margin-left: 40px;
     color: white;
     text-shadow: 2px 2px 4px black;
+    display: flex;
+    justify-content: center;
 }
 
 .bigdrug {
@@ -82,64 +84,7 @@
     flex-wrap: wrap;
 }
 
-.bigdrug1:hover {
-    box-shadow: 10px 10px 5px #4b6675;
-
-}
-
-.bigdrug2:hover {
-    box-shadow: 10px 10px 5px #4b6675;
-
-}
-
-.bigdrug3:hover {
-    box-shadow: 10px 10px 5px #4b6675;
-
-}
-
-.bigdrug4:hover {
-    box-shadow: 10px 10px 5px #4b6675;
-
-}
-
-.bigdrug5:hover {
-    box-shadow: 10px 10px 5px #4b6675;
-
-}
-
 .bigdrug1 {
-    background-color: #DDE6ED;
-    border-radius: 30px;
-    width: 250px;
-    height: 350px;
-    margin: 5px;
-}
-
-.bigdrug2 {
-    background-color: #DDE6ED;
-    border-radius: 30px;
-    width: 250px;
-    height: 350px;
-    margin: 5px;
-}
-
-.bigdrug3 {
-    background-color: #DDE6ED;
-    border-radius: 30px;
-    width: 250px;
-    height: 350px;
-    margin: 5px;
-}
-
-.bigdrug4 {
-    background-color: #DDE6ED;
-    border-radius: 30px;
-    width: 250px;
-    height: 350px;
-    margin: 5px;
-}
-
-.bigdrug5 {
     background-color: #DDE6ED;
     border-radius: 30px;
     width: 250px;
@@ -157,68 +102,8 @@
     background-color: whitesmoke;
 }
 
-#smalldrug3 {
-    font-size: 25px;
-    margin: 12px;
-    border-radius: 25px;
-    padding: 10px;
-    width: 230px;
-    height: 80px;
-    background-color: whitesmoke;
-}
-
-#smalldrug5 {
-    font-size: 25px;
-    margin: 12px;
-    border-radius: 25px;
-    padding: 15px 10px 10px 10px;
-    width: 230px;
-    height: 55px;
-    background-color: whitesmoke;
-}
-
-#smalldrug7 {
-    font-size: 25px;
-    margin: 12px;
-    border-radius: 25px;
-    padding: 15px 10px 10px 10px;
-    width: 230px;
-    height: 55px;
-    background-color: whitesmoke;
-}
-
-#smalldrug9 {
-    font-size: 25px;
-    margin: 12px;
-    border-radius: 25px;
-    padding: 15px 10px 10px 10px;
-    width: 230px;
-    height: 55px;
-    background-color: whitesmoke;
-}
-
 #smalldrug2 {
     padding: 10px;
-    font-size: 25px;
-}
-
-#smalldrug4 {
-    padding: 20px;
-    font-size: 25px;
-}
-
-#smalldrug6 {
-    padding: 20px;
-    font-size: 25px;
-}
-
-#smalldrug8 {
-    padding: 20px;
-    font-size: 25px;
-}
-
-#smalldrug10 {
-    padding: 20px;
     font-size: 25px;
 }
 
@@ -226,10 +111,6 @@
     width: auto;
     height: 10px;
     background-color: #9DB2BF;
-}
-
-.insulin1 {
-    font-size: 45px;
 }
 
 .insulin2 {
@@ -250,7 +131,7 @@
     justify-content: space-evenly;
 }
 
-#short1 {
+.short1 {
     font-size: 20px;
     width: 350px;
     height: 400px;
@@ -258,11 +139,9 @@
     border-radius: 25px;
     padding: 20px;
     margin: 8px;
-
-
 }
 
-#short2 {
+.short2 {
     font-size: 20px;
     width: 350px;
     height: 400px;
@@ -278,34 +157,16 @@
     justify-content: space-evenly
 }
 
-#long1 {
-    font-size: 20px;
-    width: 350px;
-    height: 400px;
-    background-color: #DDE6ED;
-    border-radius: 25px;
-    padding: 20px;
-    margin: 8px;
-}
-
-#long2 {
-    font-size: 20px;
-    width: 350px;
-    height: 400px;
-    background-color: whitesmoke;
-    padding-right: 10px;
-    border-radius: 25px;
-    padding: 20px;
-    margin: 8px;
-}
 
 .bg-section2 {
     position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
     &::before {
         content: '';
         width: 75vw;
-        height: 50vh;
+        height: 40vh;
         top: 60px;
         background-color: #2f5a75;
         position: absolute;
@@ -319,11 +180,12 @@
 
 .bg-section3 {
     position: relative;
+    margin-bottom: 30px;
 
     &::before {
         content: '';
         width: 80vw;
-        height: 10vh;
+        height: 6vh;
         right: 0px;
         background-color: #2f5a75;
         position: absolute;
@@ -337,7 +199,7 @@
     &::before {
         content: '';
         width: 75vw;
-        height: 50vh;
+        height: 40vh;
         right: 0px;
         background-color: #0174BE;
         position: absolute;
