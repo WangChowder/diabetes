@@ -1,162 +1,133 @@
-*{
-    font-family: 'Lilita One', sans-serif;
-}
-
-.container1{
-    background-color: #c8dce7;
-}
-.nav-item  h5{
-    font-size: 25px;
-    color: #4b6675;
-}
-.nav-item  h5:hover{
-    transform: scale(1.2);
-    color:black;
-    border-radius: 20px;
-}
-
-.dmcomplication h2{
+.dmcomplication h2 {
     font-size: 50px;
 }
-.col-8 img{
+
+.col-8 img {
     width: 100%;
 }
-.dmcomplication2{
+
+.dmcomplication2 {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
-.dmcomplication2 h2{
+
+.dmcomplication2 h2 {
     font-size: 28px;
     padding: 5px;
     width: 1000px;
 }
-.highrisk h2{
+
+.highrisk h2 {
     font-size: 35px;
 }
-.highrisk p{
+
+.highrisk p {
     font-size: 30px;
 }
-.highriskpoint{
+
+.highriskpoint {
     display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
-.highriskpoint1{
-    background-color:#B6BBC4;
+
+.highriskpoint1 {
+    background-color: #B6BBC4;
     padding: 20px;
     border-radius: 25px;
     width: 900px;
 }
 
-.highriskpoint1 h5{
+.highriskpoint1 h5 {
     font-size: 30px;
 
 }
 
-.highriskpoint1 h5:hover{
-    color:white;
+.highriskpoint1 h5:hover {
+    color: white;
     background-color: #0C356A;
     transition: background-color 0.5s ease;
     border-radius: 25px;
 }
 
 
-.highriskpoint1 p{
+.highriskpoint1 p {
     font-size: 25px;
 }
 
-.highriskpoint1 p:hover{
+.highriskpoint1 p:hover {
     border-radius: 25px;
-    background-color:#FFF0CE;
+    background-color: #FFF0CE;
     transition: background-color 0.5s ease;
 }
 
-.footer{
+.footer {
     width: auto;
     text-align: center;
     flex-wrap: wrap;
 
 }
-.col-12 a img{    
+
+.col-12 a img {
     margin: 25px;
 }
 
-#backToTopBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #c2d1e0;
-    color:black;
-    padding: 10px;
-    border: none;
-    border-radius: 50%; /* 設置圓形的半徑為50% */
-    width: 60px; /* 設置按鈕寬度 */
-    height: 60px; /* 設置按鈕高度 */
-    cursor: pointer;
-    font-size: 30px;
-  }
-  
-  #backToTopBtn:hover {
-    background-color: #a6c4e3;
-  }
-
-  .image-container {
+.image-container {
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
-  }
+}
 
-  .image-container img {
+.image-container img {
     width: 100%;
     height: 100%;
     transition: transform 1s ease-in-out, opacity 1s ease-in-out;
     border-radius: 50px;
     flex-wrap: wrap;
-  }
+}
 
-  .image-container .image-overlay {
+.image-container .image-overlay {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(59, 59, 59); 
+    background-color: rgb(59, 59, 59);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    opacity: 0.8; 
+    opacity: 0.8;
     border-radius: 50px;
-  }
+}
 
-  .image-container:hover .image-overlay {
-    opacity: 0; 
+.image-container:hover .image-overlay {
+    opacity: 0;
     border-radius: 50px;
-  }
+}
 
 
-  .try {
-    text-decoration:none;
+.try {
+    text-decoration: none;
     color: #1A8754;
     padding: 15px 10px 10px 10px;
     border-radius: 25px;
     border: 2px solid #1A8754;
-  }
+}
 
-  .try:hover{
-    background-color:#1A8754;
-    color:white
-  }
+.try:hover {
+    background-color: #1A8754;
+    color: white
+}
 
 
-  .bg-section{
+.bg-section {
     position: relative;
 
     &::before {
@@ -167,32 +138,12 @@
         position: absolute;
         z-index: -1;
     }
-  }
+}
 
-  .complication{
-    height: 100%; 
-    display: flex ; 
+.complication {
+    height: 100%;
+    display: flex;
     align-items: center;
     border-radius: 25px;
     padding: 10px;
-  }
-  
-  .footercolor{
-    background-color: #c8dce7;
-}
-
-.about{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    font-size: 20px;
-}
-.footer{
-    display: flex;
-    justify-content:space-around;
-}
-
-.footer img{
-    width:40px;
-    border-radius:10px;
 }

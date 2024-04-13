@@ -1,0 +1,63 @@
+*{
+    font-family: 'Lilita One', sans-serif;
+}
+
+.container1 {
+    background-color: #c8dce7;
+    margin-bottom: 10px;
+}
+
+.nav-item h5 {
+    font-size: 25px;
+    color: #4b6675;
+}
+
+.nav-item h5:hover {
+    transform: scale(1.1);
+    color: black;
+    border-radius: 20px;
+}
+
+#backToTopBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #c0cbd5;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    /* 設置圓形的半徑為50% */
+    width: 60px;
+    /* 設置按鈕寬度 */
+    height: 60px;
+    /* 設置按鈕高度 */
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#backToTopBtn:hover {
+    background-color: #a6c4e3;
+}
+
+.footercolor {
+    background-color: #c8dce7;
+}
+
+.about {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer img {
+    width: 40px;
+    border-radius: 10px;
+}

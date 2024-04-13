@@ -1,22 +1,6 @@
-*{
-    font-family: 'Lilita One', sans-serif;
-}
-
-.container1{
-    background-color: #c8dce7;
-}
-.nav-item  h5{
-    font-size: 25px;
-    color: #4b6675;
-}
-.nav-item  h5:hover{
-    transform: scale(1.2);
-    color:black;
-    border-radius: 20px;
-}
-
-.bg-section{
+.bg-section {
     position: relative;
+
     &::before {
         content: '';
         width: 35vw;
@@ -29,261 +13,289 @@
         z-index: -1;
     }
 }
-.main img{
-   width: 100%;
+
+.main img {
+    width: 100%;
 }
 
-.yellow{
+.yellow {
     text-align: center;
     flex-wrap: wrap;
 }
-.yellow1{
+
+.yellow1 {
     padding-top: 15px;
     font-size: 30px;
     margin-top: 30px;
     border-bottom: 10px solid #2f5a75;
-    
+
 }
-.blue1{
+
+.blue1 {
     padding-top: 20px;
     font-size: 25px;
     width: 100%;
     height: 100%;
 }
-.bigyellow2{
-    margin: 20px 0px 20px 0px ;
+
+.bigyellow2 {
+    margin: 20px 0px 20px 0px;
 }
-.yellow3{
+
+.yellow3 {
     padding-top: 15px;
     font-size: 30px;
     width: 100%;
     border-bottom: 10px solid #2f5a75;
 }
-.blue3{
+
+.blue3 {
     padding-top: 20px;
     font-size: 25px;
     width: 100%;
     height: 100%;
 }
-.yellow2{
+
+.yellow2 {
     padding-top: 15px;
     font-size: 30px;
     border-bottom: 10px solid #2f5a75;
 }
-.blue2{
+
+.blue2 {
     padding-top: 20px;
     font-size: 25px;
     width: 100%;
     height: 100%;
 }
-.drug h2{
+
+.drug h2 {
     font-size: 40px;
     margin-left: 40px;
-    color:white;
+    color: white;
     text-shadow: 2px 2px 4px black;
 }
-.bigdrug{
-    display:flex;
+
+.bigdrug {
+    display: flex;
     text-align: center;
     flex-wrap: wrap;
 }
 
-.bigdrug1:hover{
+.bigdrug1:hover {
     box-shadow: 10px 10px 5px #4b6675;
 
 }
 
-.bigdrug2:hover{
+.bigdrug2:hover {
     box-shadow: 10px 10px 5px #4b6675;
 
 }
-.bigdrug3:hover{
+
+.bigdrug3:hover {
     box-shadow: 10px 10px 5px #4b6675;
 
 }
-.bigdrug4:hover{
+
+.bigdrug4:hover {
     box-shadow: 10px 10px 5px #4b6675;
 
 }
-.bigdrug5:hover{
+
+.bigdrug5:hover {
     box-shadow: 10px 10px 5px #4b6675;
 
 }
-.bigdrug1{
-    background-color:#DDE6ED;
-    border-radius: 30px;
-    width: 250px;
-    height: 350px;
-    margin: 5px;
-}
-.bigdrug2{
-    background-color:#DDE6ED;
-    border-radius: 30px;
-    width: 250px;
-    height: 350px;
-    margin: 5px;
-}
 
-.bigdrug3{
-    background-color:#DDE6ED;
+.bigdrug1 {
+    background-color: #DDE6ED;
     border-radius: 30px;
     width: 250px;
     height: 350px;
     margin: 5px;
 }
 
-.bigdrug4{
-    background-color:#DDE6ED;
+.bigdrug2 {
+    background-color: #DDE6ED;
     border-radius: 30px;
     width: 250px;
     height: 350px;
     margin: 5px;
 }
 
-.bigdrug5{
-    background-color:#DDE6ED;
+.bigdrug3 {
+    background-color: #DDE6ED;
     border-radius: 30px;
     width: 250px;
     height: 350px;
     margin: 5px;
 }
 
-#smalldrug1{
+.bigdrug4 {
+    background-color: #DDE6ED;
+    border-radius: 30px;
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+}
+
+.bigdrug5 {
+    background-color: #DDE6ED;
+    border-radius: 30px;
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+}
+
+#smalldrug1 {
     font-size: 25px;
     margin: 12px;
     border-radius: 25px;
     padding: 10px;
     width: 230px;
     height: 70x;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
 
-#smalldrug3{
+#smalldrug3 {
     font-size: 25px;
     margin: 12px;
     border-radius: 25px;
-    padding:10px;
+    padding: 10px;
     width: 230px;
     height: 80px;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
 }
-#smalldrug5{
+
+#smalldrug5 {
     font-size: 25px;
     margin: 12px;
     border-radius: 25px;
-    padding: 15px 10px 10px 10px ;
+    padding: 15px 10px 10px 10px;
     width: 230px;
     height: 55px;
     background-color: whitesmoke;
 }
-#smalldrug7{
+
+#smalldrug7 {
     font-size: 25px;
     margin: 12px;
     border-radius: 25px;
-    padding: 15px 10px 10px 10px ;
+    padding: 15px 10px 10px 10px;
     width: 230px;
     height: 55px;
     background-color: whitesmoke;
 }
-#smalldrug9{
+
+#smalldrug9 {
     font-size: 25px;
     margin: 12px;
     border-radius: 25px;
-    padding: 15px 10px 10px 10px ;
+    padding: 15px 10px 10px 10px;
     width: 230px;
     height: 55px;
     background-color: whitesmoke;
 }
-#smalldrug2{
+
+#smalldrug2 {
     padding: 10px;
     font-size: 25px;
 }
-#smalldrug4{
-    padding:20px;
-    font-size: 25px;
-}
-#smalldrug6{
+
+#smalldrug4 {
     padding: 20px;
     font-size: 25px;
-}
-#smalldrug8{
-    padding: 20px;
-    font-size: 25px;
-}
-#smalldrug10{
-    padding: 20px;
-    font-size: 25px;
-}
-.bottom{
-    width: auto;
-    height: 10px;
-    background-color:#9DB2BF;
 }
 
-.insulin1{
+#smalldrug6 {
+    padding: 20px;
+    font-size: 25px;
+}
+
+#smalldrug8 {
+    padding: 20px;
+    font-size: 25px;
+}
+
+#smalldrug10 {
+    padding: 20px;
+    font-size: 25px;
+}
+
+.bottom {
+    width: auto;
+    height: 10px;
+    background-color: #9DB2BF;
+}
+
+.insulin1 {
     font-size: 45px;
 }
-.insulin2{
+
+.insulin2 {
     font-size: 30px;
-    color:white;
-    text-shadow: 3px 3px 4px black ;
+    color: white;
+    text-shadow: 3px 3px 4px black;
 }
-.insulinmain{
+
+.insulinmain {
     display: flex;
-    text-align: center; 
-    flex-wrap:wrap;
+    text-align: center;
+    flex-wrap: wrap;
 }
-.short{
+
+.short {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
 }
 
-#short1{
+#short1 {
     font-size: 20px;
     width: 350px;
     height: 400px;
-    background-color:whitesmoke;
+    background-color: whitesmoke;
     border-radius: 25px;
-    padding:20px;
+    padding: 20px;
     margin: 8px;
 
 
 }
-#short2{
+
+#short2 {
     font-size: 20px;
     width: 350px;
     height: 400px;
-    background-color:#DDE6ED;
+    background-color: #DDE6ED;
     border-radius: 25px;
-    padding:20px;
+    padding: 20px;
     margin: 8px;
 }
 
-.longa{
+.longa {
     flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly
 }
 
-#long1{
+#long1 {
     font-size: 20px;
     width: 350px;
     height: 400px;
-    background-color:#DDE6ED;
+    background-color: #DDE6ED;
     border-radius: 25px;
-    padding:20px;
+    padding: 20px;
     margin: 8px;
 }
 
-#long2{
+#long2 {
     font-size: 20px;
     width: 350px;
     height: 400px;
-    background-color:whitesmoke;    
+    background-color: whitesmoke;
     padding-right: 10px;
     border-radius: 25px;
-    padding:20px;
+    padding: 20px;
     margin: 8px;
 }
 
@@ -301,35 +313,11 @@
     }
 }
 
-
-.col-12 a img{    
+.col-12 a img {
     margin: 25px;
 }
 
-.footer img:hover{
-    transform: scale(1.2);
-}
-#backToTopBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #c0cbd5;
-    color:black;
-    padding: 10px;
-    border: none;
-    border-radius: 50%; /* 設置圓形的半徑為50% */
-    width: 60px; /* 設置按鈕寬度 */
-    height: 60px; /* 設置按鈕高度 */
-    cursor: pointer;
-    font-size: 30px;
-  }
-  
-  #backToTopBtn:hover {
-    background-color: #a6c4e3;
-  }
-
-  .bg-section3{
+.bg-section3 {
     position: relative;
 
     &::before {
@@ -341,8 +329,9 @@
         position: absolute;
         z-index: -1;
     }
-  }
-  .bg-section4 {
+}
+
+.bg-section4 {
     position: relative;
 
     &::before {
@@ -354,8 +343,9 @@
         position: absolute;
         z-index: -1;
     }
-  }
-  .bg-section1{
+}
+
+.bg-section1 {
     position: relative;
 
     &::before {
@@ -368,24 +358,4 @@
         z-index: -1;
         opacity: 0.9;
     }
-  }
-
-  .footercolor{
-    background-color: #c8dce7;
-}
-
-.about{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    font-size: 20px;
-}
-.footer{
-    display: flex;
-    justify-content:space-around;
-}
-
-.footer img{
-    width:40px;
-    border-radius:10px;
 }

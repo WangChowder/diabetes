@@ -1,57 +1,79 @@
-*{
-    font-family: 'Lilita One', sans-serif;
-}
-
 #myVideo {
     position: relative;
     right: 0;
     bottom: 0;
-    width: 100%; 
+    width: 100%;
     height: 100%;
-  }
-  
-  .content {
+}
+
+.content {
     position: absolute;
-    bottom: 0;
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
-  }
-
-.container1{
-    background-color: #c8dce7;
 }
 
-.nav-item  h5{
-    font-size: 25px;
-    color: #4b6675;
+.carousel{
+    margin-bottom: 20px;
 }
-.nav-item  h5:hover{
-    transform: scale(1.2);
-    color:black;
-    border-radius: 20px;
-}
-.mainContent{
+
+.page-header{
+    flex-direction: column; 
+    display: flex; 
     text-align: center;
 }
 
-.mainContent p{
+.page-header1 {
+    text-shadow:2px 2px 2px black; 
+    color:white;
+    font-size: 40px;
+}
+
+.page-header {
+    text-shadow:2px 2px 2px black; 
+    color:white;
+}
+
+.mainContent {
+    text-align: center;
+}
+
+.mainContent p {
     font-size: 25px;
     line-height: 80px;
     margin-top: 30xp;
 }
 
-.col-12 a img{    
+.col-12 a img {
     margin: 25px;
 }
-  .bg-section {
+
+.bg-section1 {
     position: relative;
+    text-shadow:2px 2px 2px black; 
+    color:white;
+    font-size: 40px;
+    margin-bottom: 35px;
+
+    &::before {
+        content: '';
+        width: 40vw;
+        height: 5vh;
+        background-color: #2f5a75;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+.bg-section2 {
+    position: relative;
+    margin-bottom: 50px;
 
     &::before {
         content: '';
         width: 50vw;
-        height: 10vh;
+        height: 5vh;
         right: 0px;
         background-color: #2f5a75;
         position: absolute;
@@ -59,84 +81,75 @@
     }
 }
 
-#backToTopBtn {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #c0cbd5;
-    color:black;
-    padding: 10px;
-    border: none;
-    border-radius: 50%; /* 設置圓形的半徑為50% */
-    width: 60px; /* 設置按鈕寬度 */
-    height: 60px; /* 設置按鈕高度 */
-    cursor: pointer;
-    font-size: 30px;
-  }
-  
-  #backToTopBtn:hover {
-    background-color: #a6c4e3;
-  }
-
-
-.bg-section2 {
-    position: relative;
-
-    &::before {
-        content: '';
-        width: 40vw;
-        height: 8vh;
-        background-color: #2f5a75;
-        position: absolute;
-        z-index: -1;
-    }
-}
-.footercolor{
-    background-color: #c8dce7;
+.handopen{
+    width: 100%;
 }
 
-.about{
-    text-decoration: none;
-    color: black;
-    cursor: pointer;
-    font-size: 20px;
-}
-.footer{
-    display: flex;
-    justify-content:space-around;
-}
-
-.footer img{
-    width:40px;
-    border-radius:10px;
+.footerfont{
+    font-size: 35px;
+    line-height: 80px;
 }
 
 
-@media screen and (max-width: 768px) {
-    .mainContent p{
-        font-size: 16px;
-        line-height: 30px;
-    }
-  }
-
-@media screen and (max-width: 991px) {
-    .mainContent p{
-        font-size: 20px;
-        line-height: 60px;
-    }
-  }
-
-@media screen and (max-width: 1400px) {
+@media screen and (max-width: 1500px) {
     .content {
         display: none;
     }
-  }
-
-@media screen and (max-width: 1400px) {
     #myVideo {
         display: none;
     }
-  }
+}
 
-  
+@media screen and (max-width: 1200px) {
+    .footerfont {
+        font-size: 32px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .footerfont {
+        font-size: 18px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footerfont {
+        font-size: 15px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .footerfont {
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .footerfont {
+        font-size: 13px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .footerfont {
+        font-size: 13px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footerfont {
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .footerfont {
+        line-height: 22px;
+    }
+}

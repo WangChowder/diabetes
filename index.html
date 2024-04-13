@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>糖尿病大小事</title>
   <link href="assets/css/index.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/app.css" rel="stylesheet" type="text/css" />
   <link href="bootstrap-5.3.2-dist/css/bootstrap.css" rel="stylesheet">
   <script src="bootstrap-5.3.2-dist/js/bootstrap.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
@@ -29,12 +30,10 @@
     <div>
       <img src="assets/images/logo.png">
     </div>
-    <div>
-      <form class="d-flex" role="search">
-        <input class="form-control" type="search" placeholder="糖尿病相關資料" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
+    <form class="d-flex align-items-center" role="search">
+      <input class="form-control" type="search" placeholder="糖尿病相關資料" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
   </div>
   <nav class="navbar navbar-expand-lg container1">
     <div class="container-fluid">
@@ -42,56 +41,46 @@
         aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <!-- <div class="d-flex justify-content-around"> -->
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="index.html">
-                <h5>首頁</h5>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="main content.html">
-                <h5>糖尿病是什麼</h5>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="main content2.html">
-                <h5>糖尿病治療方法</h5>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="main content3.html">
-                <h5>糖尿病併發症</h5>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="main content4.html">
-                <h5>商品專區</h5>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="main content5.html">
-                <h5>會員登入</h5>
-              </a>
-            </li>
-          </ul>
-        </div>
-      <!-- </div> -->
-    </div>
-  </nav>
-  <br>
-  <br>
-  <div class="bg-section2">
-    <div class="container">
-      <div style="text-shadow:2px 2px 2px black; color:white" data-aos="fade-right" data-aos-duration="2000">
-        <h1>你害怕糖尿病嗎？</h1>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="index.html">
+              <h5>首頁</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="main content.html">
+              <h5>糖尿病是什麼</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="main content2.html">
+              <h5>糖尿病治療方法</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="main content3.html">
+              <h5>糖尿病併發症</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="main content4.html">
+              <h5>商品專區</h5>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="main content5.html">
+              <h5>會員登入</h5>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
+  <div class="bg-section1" data-aos=" fade-right" data-aos-duration="2000">
+    你害怕糖尿病嗎？
   </div>
-  <br>
-  <div class="container">
+  <div class="container carousel">
     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -123,48 +112,44 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-    <br>
-    <div class="bg-section">
-      <div class="container">
-        <div class="page-header" style="flex-direction: column; display: flex; text-align: center;">
-          <h1 style="text-shadow:2px 2px 2px black; color:white">111年<spean style="color:white" data-aos="fade-left"
-              data-aos-duration="2000">台灣十大死因</spean>
-          </h1>
-          <br>
-          <br>
-          <P>資料來源：衛生福利部統計處</P>
-        </div>
+  </div>
+    <div class="bg-section2">
+
+      <div class="page-header">
+        <div class="page-header1" data-aos="fade-left" data-aos-duration="3000">111年台灣十大死因</div>
+        <div class="page-header2">資料來源：衛生福利部統計處</div>
       </div>
-      <br>
-      <br>
+
+    </div>
+
+    <div class="container">
       <div class="row">
-        <div class="col-sm-1"></div>
+        <div class="col"></div>
         <div class="col-sm-10">
           <canvas id="chartCanvas"></canvas>
         </div>
-        <div class="col-sm-1"></div>
+        <div class="col"></div>
       </div>
     </div>
-    <br>
-    <div class="mainContent">
+
+ 
+
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-sm-6">
-            <P><span style="color: red; font-size: 35px;">台灣</span>
+          <div class="footerfont col-5 ">
+            <span style="color: red; font-size: 35px;">台灣</span>
               是亞洲地區糖尿病盛行率最高的國家，平均約每十人中就有超過一人可能有糖尿病問題，而原因其實與居高不下的肥胖人口比例脫不了關係。根據國健署統計，18歲以上台灣人，約半數有過胖問題，這也連帶造成糖尿病患者數量不斷增加、且有年輕化的趨勢。
-              糖尿病也一直是台灣十大死亡原因之一根據衛福部統計111年國人十大死亡原因中糖尿病位居第六名。</P>
+              糖尿病也一直是台灣十大死亡原因之一根據衛福部統計111年國人十大死亡原因中糖尿病位居第六名。
           </div>
-          <div class="col-md-6 col-sm-6">
-            <img class="img-fluid" src="assets/images/handopen.png" alt="張開雙手">
+          <div class="col-7">
+            <img class="handopen" src="assets/images/handopen.png" alt="張開雙手">
           </div>
-        </div>
       </div>
     </div>
-  </div>
+  
   <br>
   <br>
   <div class="footercolor">
-    <br>
     <div class="container">
       <div class="row">
         <div class="col-xl-5 col-lg-4 col-md-3">
