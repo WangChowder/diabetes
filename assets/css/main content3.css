@@ -12,6 +12,7 @@
     justify-content: center;
     text-align: center;
     flex-wrap: wrap;
+    margin-bottom: 30px;
 }
 
 .dmcomplication2 h2 {
@@ -144,4 +145,8 @@
     align-items: center;
     border-radius: 25px;
     padding: 10px;
+}
+
+.containermargin{
+    margin: 40px;
 }
